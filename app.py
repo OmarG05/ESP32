@@ -13,7 +13,7 @@ CORS(app)
 MONGO_URI = os.environ.get("MONGO_URI")
 client = MongoClient(MONGO_URI)
 db = client["BasePryEsp32"]
-collection = db["Datos"]
+collection = db["datas"]
 
 
 
